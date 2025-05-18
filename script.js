@@ -1,3 +1,20 @@
+console.log("Script loaded");
+// Function to fetch portfolio data from an API or a local JSON file
+// Example portfolio data
+const portfolioData = [
+    {
+        "name": "Project 1",
+        "description": "Description of Project 1",
+        "image": "path/to/image1.jpg",
+        "link": "https://example.com/project1"
+    },
+    {
+        "name": "Project 2",
+        "description": "Description of Project 2",
+        "image": "path/to/image2.jpg",
+        "link": "https://example.com/project2"
+    }
+];
 // Replace the portfolioData object with this:
 async function fetchPortfolioData() {
     try {
